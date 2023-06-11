@@ -1,0 +1,9 @@
+@media (min-width:376x) {
+    footer {
+        @include ancho(100%);
+    }
+    form{
+        @include ancho(100%)
+    }
+}
+

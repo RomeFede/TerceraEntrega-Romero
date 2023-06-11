@@ -1,0 +1,54 @@
+.pizzero img{
+    @include ancho(80%);
+
+    border-radius: 10px;
+    border-style: groove;
+}
+
+.redes img{
+    display: flex;
+    @include ancho(50px);
+
+}
+
+.carousel img{
+    @include ancho(1000px);
+
+    height: 900px;
+}
+.carousel {
+    margin-bottom: 30px;
+}
+
+
+.menu img{
+    @include ancho(250px);
+
+    height: 250px;
+}
+
+.main_image {
+    @include ancho(25%);
+    height: 28%;
+}
+
+.logo_principal {
+    @include ancho(100px);
+
+}
+
+.menu img{
+    display: flex;
+    flex-direction: row;
+    @include ancho(90%);
+
+    height: 300px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #756363b4;
+    border-style: inherit;
+    
+}

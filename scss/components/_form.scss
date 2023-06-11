@@ -1,0 +1,40 @@
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+.formulario{
+    @include ancho(400px);
+
+    margin: auto;
+    background: map-get($paleta_de_colores, crema );
+    padding: 10px 20px;
+    margin-top: 25px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+
+input, textarea{
+    @include ancho(100%);
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+textarea{
+    margin-top: 15px;
+    border: none;
+}

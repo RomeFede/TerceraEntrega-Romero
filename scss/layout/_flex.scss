@@ -1,0 +1,48 @@
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.menu div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texto__contactanos{
+    text-align: center;
+}
+
+.map div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.pizzero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;    
+
+}
+.texto__mapa{
+    text-align: center;
+    outline-style:double;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.card-body{
+    text-align: center;
+}
