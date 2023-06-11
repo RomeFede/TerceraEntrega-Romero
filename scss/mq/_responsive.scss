@@ -5,5 +5,24 @@
     form{
         @include ancho(100%)
     }
+    
+
+}
+
+@media (max-width:520px){
+    .formulario{
+        @include ancho(75%)
+        
+    }
+    footer{
+        @include ancho(100%)
+
+    }
+    body{
+        @include ancho(100%);
+    }
+    header{
+        @include ancho(100%)
+    }
 }
 
