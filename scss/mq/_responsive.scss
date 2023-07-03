@@ -1,4 +1,4 @@
-@media (min-width:376x) {
+@media (min-width:375x) {
     footer {
         @include ancho(100%);
     }
@@ -25,4 +25,6 @@
         @include ancho(100%)
     }
 }
+
+
 
